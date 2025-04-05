@@ -13,7 +13,6 @@ from telegram.ext import (
 
 app = Flask(__name__)
 
-PORT = os.getenv()
 TOKEN = os.getenv("TOKEN")
 WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 
