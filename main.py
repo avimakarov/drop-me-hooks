@@ -49,7 +49,7 @@ def webhook():
 
 async def set_webhook():
     await application.initialize()
-    await application.bot.set_webhook(HOST + "/webhook")
+    await application.bot.set_webhook(WEBHOOK_URL + "/webhook")
 
 
 if __name__ == "__main__":
